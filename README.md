@@ -10,7 +10,7 @@
 
 ---
 
-## 👨‍💻 Sobre mí
+##  Sobre mí
 
 Soy estudiante de quinto año de **Ingeniería en Sistemas de Información** en la Universidad Mariano Gálvez de Guatemala. Tengo **nueve semestres aprobados** y actualmente curso el **décimo semestre**.
 
