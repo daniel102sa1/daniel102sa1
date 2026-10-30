@@ -20,16 +20,44 @@ Me interesa transformar necesidades reales en soluciones mantenibles, seguras y 
 
 **Estoy buscando:** desarrollo backend, full stack, análisis de sistemas o QA junior; disponibilidad presencial, híbrida o remota.
 
-## 🛠️ Tecnologías
+## 🛠️ Tecnologías y experiencia práctica
 
-| Área | Tecnologías y herramientas |
+| Especialidad | Herramientas y conocimientos aplicados |
 | --- | --- |
-| **Backend** | Python, Django, Django REST Framework, FastAPI, APIs REST |
-| **Frontend** | JavaScript, TypeScript, React, Next.js, Vite, HTML, CSS, Tailwind CSS |
-| **Bases de datos** | PostgreSQL, MySQL, SQL Server, SQL |
-| **Móvil** | Kotlin, Jetpack Compose, Retrofit, Expo / React Native (en proyectos en desarrollo) |
-| **Herramientas** | Git, GitHub, Postman, VS Code, Railway, Vercel, Figma |
-| **Enfoque de calidad** | Pruebas, control de versiones, documentación técnica e integración entre componentes |
+| **Lenguajes** | Python, JavaScript, TypeScript, Kotlin, SQL |
+| **Backend y APIs** | FastAPI, Django, Django REST Framework, APIs REST, validación de datos, autenticación, endpoints asíncronos |
+| **Frontend** | React, Next.js, Vite, HTML, CSS, Tailwind CSS |
+| **Bases de datos** | PostgreSQL, SQL Server, MySQL, SQLAlchemy, Django ORM, consultas SQL |
+| **IA aplicada** | Integración de la **API de OpenAI**, respuestas estructuradas con JSON Schema y análisis asistido por modelos |
+| **Integraciones externas** | APIs de datos de mercado, manejo de HTTP, respuestas JSON, caché, reintentos y notificaciones |
+| **Android** | Kotlin y Android SDK; experiencia adicional en proyectos móviles privados |
+| **Pruebas y automatización** | pytest, unittest, GitHub Actions, compilaciones CI, pruebas de backend |
+| **Entorno de desarrollo** | Git, GitHub, Postman, VS Code, Railway, Vercel, Docker y configuración de Azure |
+
+### 🤖 Integración de inteligencia artificial
+
+En **[ExplodeX Backend](https://github.com/daniel102sa1/explodex-backend)** existe una integración real con el SDK de OpenAI y su **Responses API**, con solicitudes asíncronas, salida estructurada mediante JSON Schema, validación de estados, tratamiento de errores y límites de uso. El proyecto está en **fase experimental y simulación**; no se afirma que la IA garantice resultados.
+
+### 🔌 Desarrollo e integración de APIs
+
+- **APIs propias:** endpoints REST para productos, usuarios, facturas, ventas, reportes, simulación y análisis.
+- **Consumo de APIs externas:** fuentes de datos de mercado, manejo de peticiones HTTP, errores y servicios de terceros.
+- **Autenticación y permisos:** integración de mecanismos basados en tokens y rutas protegidas.
+
+**Ejemplos de código:** [FerreFactura Backend](https://github.com/daniel102sa1/ferrefactura-backend) · [ExplodeX Backend](https://github.com/daniel102sa1/explodex-backend)
+
+### 🗄️ Bases de datos y persistencia
+
+- **PostgreSQL:** consultas y sesiones asíncronas con SQLAlchemy en ExplodeX.
+- **SQL Server:** integración con Django y modelos de facturación en FerreFactura.
+- **MySQL:** modelos SQLAlchemy y consultas SQL en proyectos personales.
+- **Diseño de información:** entidades, relaciones, consultas, reportes y lógica de negocio.
+
+### ✅ Calidad de software
+
+Experiencia escribiendo y organizando **pruebas de backend**, creando flujos de **integración continua con GitHub Actions** y registrando el comportamiento de aplicaciones durante el desarrollo. La cobertura de pruebas varía entre repositorios y **no todos los proyectos están listos para producción**.
+
+---
 
 ## 🚀 Proyectos destacados
 
@@ -56,15 +84,17 @@ Sistema con backend **Django + Django REST Framework** y frontend **React + Vite
 
 **Repositorios:** [Backend](https://github.com/daniel102sa1/ferrefactura-backend) · [Frontend](https://github.com/daniel102sa1/ferrefactura-frontend)
 
-### 📈 [ExplodeX](https://github.com/daniel102sa1/explodex-backend) — análisis de mercados y simulación
+### 📈 [ExplodeX](https://github.com/daniel102sa1/explodex-backend) — análisis de mercados, IA y simulación
 **Proyecto experimental de software · No es asesoría financiera**
 
-Aplicación para observar mercados, evaluar señales y registrar ejercicios de simulación (**paper trading**). Integra servicios de análisis con una interfaz web.
+Plataforma de análisis con servicios web, datos externos, persistencia, pruebas y simulación (*paper trading*). Incluye **integración con la API de OpenAI** para evaluar contextos con salidas estructuradas y mecanismos de seguridad.
 
-- **Backend:** FastAPI, Python, PostgreSQL, SQLAlchemy y pruebas automatizadas.
+- **Backend:** Python, FastAPI, PostgreSQL y SQLAlchemy asíncrono.
 - **Frontend:** Next.js, React y TypeScript.
-- **Enfoque técnico:** APIs, procesamiento de datos, seguimiento de señales y evaluación de riesgo.
-- **Estado:** proyecto experimental; no se atribuye rentabilidad demostrada.
+- **IA:** SDK de OpenAI, Responses API, JSON Schema y mecanismos de fallback.
+- **APIs:** integración con fuentes de datos de mercado y servicios externos.
+- **Calidad:** pruebas automatizadas y workflows de GitHub Actions.
+- **Estado:** experimental; no se atribuye rentabilidad ni fiabilidad financiera demostrada.
 
 **Repositorios:** [Backend](https://github.com/daniel102sa1/explodex-backend) · [Web](https://github.com/daniel102sa1/explodex-web)
 
